@@ -29,9 +29,14 @@
 
 .sub-container p {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 30px;
     margin-bottom: 8px;
     text-transform: capitalize;
+}
+
+.qr{
+    width: 40px;
+    height: 40px;
 }
 
 .sub-container input {
