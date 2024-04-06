@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE Generator - Souvik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <p>QR generator</p>
+            <input type="text" placeholder="Text or URL" id="qr-Text">
+            <!-- for generated qr img -->
+            <div id="qrImg-box">
+                <img src="" id="qr-Img">
+            </div>
+            <!-- buttons -->
+            <button class="generate-btn" onclick="Generate()">Generate QR</button>
+            <button class="download-btn" onclick="Download()">Download QR</button>
+            <button class="clear-btn" onclick="Clear()">Clear QR</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
