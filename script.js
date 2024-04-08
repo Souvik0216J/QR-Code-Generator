@@ -9,9 +9,11 @@ const Generate = () => {
         qrimg.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrtext.value;
     }
     else {
+        qrtext.style.borderColor = 'red';
         qrtext.classList.add("error");
         setTimeout(() => {
             qrtext.classList.remove("error");
+            qrtext.style.borderColor = '';
         }, 1000);
     }
 }
@@ -43,8 +45,10 @@ const Download = () => {
             });
     } else {
         qrtext.classList.add("error");
+        qrtext.style.borderColor = 'red';
         setTimeout(() => {
             qrtext.classList.remove("error");
+            qrtext.style.borderColor = '';
         }, 1000);
     }
 }
@@ -56,9 +60,11 @@ const Clear = () => {
         qrtext.value = '';
     }
     else {
+        qrtext.style.borderColor = 'red';
         qrtext.classList.add("error");
         setTimeout(() => {
             qrtext.classList.remove("error");
+            qrtext.style.borderColor = '';
         }, 1000);
     }
 } 
