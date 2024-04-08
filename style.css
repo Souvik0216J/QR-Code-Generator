@@ -101,7 +101,6 @@
 
 .error {
     animation: shake 0.1s linear 10;
-    border: 1px solid #ff0000;
 }
 
 /* Error shaking animation */
