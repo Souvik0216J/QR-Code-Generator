@@ -1,7 +1,8 @@
 # 📱 QR Code Generator
 
 A simple web application to generate QR codes from text or URLs.
-
+## Preview
+![App Screenshot](assets/SS_project.png)
 ## ✨ Features
 
 - Generate QR codes from text or URLs.
