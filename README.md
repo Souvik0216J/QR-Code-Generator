@@ -15,4 +15,4 @@ A simple web application to generate QR codes from text or URLs.
 - CSS
 - JavaScript
 ## Hosted Link
-- Explore the project: https://souvik0216j.github.io/QR-Code-Generator/
+- 🔗 Explore the project: https://souvik0216j.github.io/QR-Code-Generator/
